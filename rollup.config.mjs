@@ -1,8 +1,10 @@
 import resolve from '@rollup/plugin-node-resolve';
 import commonJs from '@rollup/plugin-commonjs';
 import babel from '@rollup/plugin-babel';
-import { terser } from 'rollup-plugin-terser';
-import { name, homepage, version, dependencies } from './package.json';
+import terser from '@rollup/plugin-terser';
+
+import pkg from './package.json' assert { type: 'json' };
+const { name, homepage, version, dependencies } = pkg;
 
 const umdConf = {
   format: 'umd',
