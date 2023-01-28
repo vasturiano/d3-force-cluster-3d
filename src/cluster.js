@@ -16,7 +16,7 @@ export default function(centers = () => ({ x: 0, y: 0, z: 0 })) {
       x = d.x - c.x;
       y = nDim > 1 ? d.y - c.y : 0;
       z = nDim > 2 ? d.z - c.z : 0;
-      l = Math.sqrt(x * x + y * y);
+      l = Math.sqrt(x * x + y * y + z * z);
       r = d.radius + (c.radius || 0);
 
       if (l && l !== r) {
