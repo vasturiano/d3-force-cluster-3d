@@ -14,11 +14,7 @@ This force plugin is compatible with [d3-force-3d](https://github.com/vasturiano
 ```js
 import d3ForceCluster from 'd3-force-cluster-3d';
 ```
-or
-```js
-d3.forceCluster = require('d3-force-cluster-3d');
-```
-or even
+or using a *script* tag
 ```html
 <script src="//unpkg.com/d3-force-cluster-3d"></script>
 ```

@@ -2,9 +2,14 @@
   "name": "d3-force-cluster-3d",
   "version": "1.0.2",
   "description": "A clustering force type for the d3-force-3d simulation engine.",
+  "type": "module",
   "unpkg": "dist/d3-force-cluster-3d.min.js",
-  "main": "dist/d3-force-cluster-3d.common.js",
-  "module": "dist/d3-force-cluster-3d.module.js",
+  "main": "dist/d3-force-cluster-3d.mjs",
+  "module": "dist/d3-force-cluster-3d.mjs",
+  "exports": {
+    "umd": "./dist/d3-force-cluster-3d.min.js",
+    "default": "./dist/d3-force-cluster-3d.mjs"
+  },
   "keywords": [
     "d3",
     "d3-module",
@@ -38,14 +43,15 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.20.12",
-    "@babel/plugin-proposal-class-properties": "^7.18.6",
-    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.4.0",
     "rimraf": "^4.1.2",
-    "rollup": "^3.12.0"
+    "rollup": "^3.14.0"
+  },
+  "engines": {
+    "node": ">=12"
   }
 }
