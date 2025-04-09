@@ -3,6 +3,7 @@
   "version": "1.1.1",
   "description": "A clustering force type for the d3-force-3d simulation engine.",
   "type": "module",
+  "jsdelivr": "dist/d3-force-cluster-3d.min.js",
   "unpkg": "dist/d3-force-cluster-3d.min.js",
   "main": "dist/d3-force-cluster-3d.mjs",
   "module": "dist/d3-force-cluster-3d.mjs",

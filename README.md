@@ -16,7 +16,7 @@ import d3ForceCluster from 'd3-force-cluster-3d';
 ```
 or using a *script* tag
 ```html
-<script src="//unpkg.com/d3-force-cluster-3d"></script>
+<script src="//cdn.jsdelivr.net/npm/d3-force-cluster-3d"></script>
 ```
 then
 ```js
