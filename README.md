@@ -1,3 +1,5 @@
+### ⚠️ Note: This module is now deprecated! Please use [d3-force-clustering](https://github.com/vasturiano/d3-force-clustering) instead. ⚠️
+
 d3-force-cluster-3d
 ===================
 
